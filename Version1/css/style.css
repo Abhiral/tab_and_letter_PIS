@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #eff2f7;
+}
+
+.table table, .table-cover table{
+	width: 100%;
+}
+
+.table table tr, .table-cover table tr{
+	border: 1px solid #c3d5f3;
+}
+
+.print-cover, .table table tr:first-child, .table-cover table tr:first-child{
+	/*background-color: #b58adc;*/
+	background: url(../images/list_bar_bg.gif) repeat-x bottom #ebf1fc;
+}
+
+.print-cover, th, td{
+	font-size: 13px!important;
+	padding: 5px!important;
+}
+
+.main-table-cover td:before{
+	content: ':';
+	padding-right: 20px;
+}
+
+.side-table-cover td:before{
+	content: ':';
+	padding-right: 10px;
+}
+
+.img-cover{
+	width: 135px;
+	border: 1px solid #c3d5f3;
+}
+
+.img-cover img{
+	height: 120px;
+	width: 100%;
+}
+
+.img-cover button{
+	margin: 5px 10px;
+	padding: 2px 8px;
+}
+
+.print-cover{
+	margin-bottom: 15px;
+}
+
+.print-cover a, .sub-menu ul li a{
+	text-decoration: none;
+}
+
+.print-cover .fa, .table .fa{
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+#myTab {
+	margin-top: 20px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff!important;
+    font-weight: 600;
+    background-color: #004C96;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+#myTab .nav-item{
+	background: url(../images/list_bar_bg.gif) repeat-x bottom #ebf1fc;
+	margin: 0 1px;
+}
+
+#myTab .nav-item a, .sub-menu ul li a{
+	color: #000;
+}
+
+.sub-menu{
+	background: url(../images/list_bar_bg.gif) repeat-x bottom #ebf1fc;
+}
+
+.sub-menu ul{
+	display: flex;
+	list-style-type: none;
+}
+
+.sub-menu ul li{
+	padding: 12px 15px;
+}
+
+
+
+@media (min-width: 1360px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1320px;
+    }
+
+    .my-4 .controls-top .right-arrow{
+        margin-left: 1222px;
+    }
+}
+
+@media (min-width: 1400px){
+    .container {
+        max-width: 1340px;
+    }
+}
+
+@media (min-width: 1600px){
+    .container {
+        max-width: 1540px;
+    }
+}
+
+@media (min-width: 1800px){
+    .container {
+        max-width: 1740px;
+    }
+}

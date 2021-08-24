@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}*/
+
+header{
+	margin-top: 20px;
+}
+
+.page-logo img{
+	width: 120px;
+  padding-top: 15px;
+}
+
+.page-logo p{
+  text-align: right;
+    padding-top: 25px;
+}
+
+.local-address h3, .local-address h4, .local-address h6, .subject-line p, .letter-body .approval-sign p{
+	text-align: center;
+}
+
+.letter-head{
+	margin-top: 10px;
+}
+
+p{
+	font-size: 16px;
+  line-height: 2;
+}
+.date p{
+	text-align: right!important;
+}
+
+.subject-line{
+	  width: 100%;
+    margin-bottom: 30px;
+}
+
+.subject-line p{
+    text-align: center!important;
+}
+.letter-body{
+    margin-bottom: 50px;
+}
+.letter-body p{
+	text-align: justify;
+}
+
+.bebasaya-table table tr th, .bebasaya-table table tr td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+  .bebasaya-table th,.bebasaya-table td {
+        padding: 5px;
+        text-align: center;
+    }
+
+.approval-sign{
+	padding-top: 80px;
+}
+
+.bebasaya-table td{
+  height: 80px;
+}
+.footer-container .row{
+    border-top: 1px solid #aaa;
+}
+.footer-content{
+    margin: 0 auto;
+}
+.footer-content p:first-child {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.page-header, .page-header-space {
+  height: 270px;
+}
+
+.page-footer, .page-footer-space {
+  height: 100px;
+  text-align: center;
+
+}
+
+.page-footer {
+  /*margin-top: auto;*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-header {
+  position: fixed;
+  top: 0mm;
+  width: 100%;
+}
+
+.page {
+  page-break-after: always;
+}
+
+.bodhartha p, .approval-sign p{
+  margin-bottom: 0;
+}
+
+@media print{
+  header{
+    margin-top: 0px;
+  }
+}
